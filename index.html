@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lookscout">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="#" class="nav-item">Edukasi</a>
+                <a href="#" class="nav-item">Cerita Kami</a>
+                <a href="https://skilvul.com" class="nav-item">Skilvul</a>
+            </div>
+            <div class="nav-center">
+                <img src="asset/logo.svg" alt="logo" class="nav-icon">
+            </div>
+            <div class="nav-right">
+                <a href="#" class="nav-item">Event</a>
+                <a href="#" class="nav-item">Berita</a>
+                <a href="#" class="nav-item">Masuk</a>
+                <img src="asset/profile.svg" alt="profile" class="profile-icon">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>
+                    Satu tindakan kebaikan bisa mengubah hidup seseorang. <br>
+                    Mari bersama-sama hentikan perundungan dengan tindakan kebaikan
+                </h1>
+                <p id="description">
+                    Selamat datang di layanan laporan anti-perudungan
+                </p>
+            </div>
+        </div>
+        <div class="form">
+            <form action="/" method="get">
+                <div class="form-title">
+                    <h2>Buat Laporan Perundungan</h2>
+                </div>
+                <div class="form-body">
+                    <div class="warning">
+                        <p class="warning-text"></p>
+                    </div>
+                    <div class="form-input">
+                        <div class="form-item">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" name="name" id="name" placeholder="Masukkan nama lengkap">
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Alamat Email</label>
+                            <input type="email" name="email" id="email" placeholder="Masukkan alamat email">
+                        </div>
+                        <div class="form-item">
+                            <label for="city">Domisili</label>
+                            <input type="text" name="city" id="city" placeholder="Masukkan kota tinggal">
+                        </div>
+                        <div class="form-item">
+                            <label for="zip-code">Kode Pos</label>
+                            <input type="number" name="zip-code" id="zip-code" placeholder="Masukkan kode pos">
+                        </div>
+                        <div class="form-item expanded">
+                            <label for="report">Laporan</label>
+                            <textarea name="report" id="report" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-end">
+                        <div class="form-confirmation">
+                            <input type="checkbox" name="status" id="status">
+                            <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah
+                                benar dan telah sesuai</label>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" id="submit-form">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="main-bg">
+            <img src="asset/hero-left.png" alt="hero image">
+            <img src="asset/hero-right.png" alt="hero image">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="asset/logo.svg" alt="">
+            </div>
+            <div class="footer-content">
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/89e8e6eb78.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
